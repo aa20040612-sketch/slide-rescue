@@ -1,0 +1,13 @@
+{
+  "name": "slide-rescue",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "給大學生的簡報改造指南：以 AGENTS.md 驅動的可擴充靜態網站",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  }
+}
